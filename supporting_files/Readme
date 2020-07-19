@@ -1,0 +1,21 @@
+This below url is the key to change the database related config once the lamp server is up and running in your container
+=> https://codewithawa.com/posts/complete-user-registration-system-using-php-and-mysql-database
+
+Create a registration database in your phpmyadmin
+
+and create the table like below in the cli
+
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `username` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+====>
+Install lamp - https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
+Install phpmyadmin - https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-18-04
+
