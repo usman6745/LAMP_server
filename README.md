@@ -12,7 +12,7 @@ Install docker on your ubuntu/centos machine
 
 #git clone https://github.com/usman6745/LAMP_server.git
 
-$*-> copy the Lamp_server.git->files* into /var/www/html/*
+$*-> copy the lampserver_folder->files* into /var/www/html/*
 
 #service mysql restart
 #service apache2 restart
