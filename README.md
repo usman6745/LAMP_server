@@ -2,9 +2,9 @@
 Install docker on your ubuntu/centos machine
 #docker login
 
-#docker pull <username>/lampv1
+#docker pull username/lampv1
 
-#docker run --itd --name lampserver -p 80:80 -p 5000:5000 <username>/lampv1
+#docker run --itd --name lampserver -p 80:80 -p 5000:5000 username/lampv1
 
 #docker exec -it lampserver bash
 
