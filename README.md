@@ -4,7 +4,8 @@ Install docker on your ubuntu/centos machine
 
 #docker pull username/lampv1
 
-#docker run --itd --name lampserver -p 80:80 -p 5000:5000 username/lampv1
+#docker run --itd --name lampserver -p 80:80 -p 5000:5000 username/lampv1 -------> or
+#docker run -itd --name lampserver -p 80:80 username/lampv1
 
 #docker exec -it lampserver bash
 
@@ -20,4 +21,5 @@ $*-> copy the lampserver_folder->files* into /var/www/html/*
 exit
 ====>
 Supporting file is added for database changes in your local container's server.php file.
--====-
+-====
+===>phpmyadmin password would be Root@2018 and username is which you have set while configuring-
